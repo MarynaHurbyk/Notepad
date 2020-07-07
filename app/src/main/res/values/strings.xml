@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Notepad</string>
+    <string name="registration"><a>Зарєструватися?</a></string>
+    <string name="submitButton">Вхід</string>
+    <string name="login_password_field">Пароль</string>
+    <string name="login_login_field">Логін</string>
+    <string name="validation_field_requared">Обов\'язкове поле</string>
+    <string name="user_exist_excaption">Такий користувач вже існує</string>
 </resources>
