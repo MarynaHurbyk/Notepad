@@ -1,9 +1,25 @@
 <resources>
     <string name="app_name">Notepad</string>
-    <string name="registration"><a>Зарєструватися?</a></string>
+    <string name="registration"><u>Зарєструватися?</u></string>
     <string name="submitButton">Вхід</string>
+    <string name="registerUserButton">Зареєструвати</string>
     <string name="login_password_field">Пароль</string>
     <string name="login_login_field">Логін</string>
+    <string name="login_name_field">Ім\'я</string>
     <string name="validation_field_requared">Обов\'язкове поле</string>
+    <string name="validation_field_length">"Пароль має містити більше 3-x символів"</string>
     <string name="user_exist_excaption">Такий користувач вже існує</string>
+    <string name="incorrectData">Невірно введені дані</string>
+    <string name="your_records">Ваші записи</string>
+    <string name="themeRecord">Тема запису</string>
+    <string name="textRecord">Введіть текст:</string>
+    <string name="create_record">Створити запис</string>
+    <string name="save_record">Зберегти запис</string>
+    <string name="registration_title">Реєстрація</string>
+    <string name="record_title">Запис</string>
+    <string name="change_user">Змінити користувача</string>
+    <string name="delete">delete</string>
+    <string name="edit">edit</string>
+    <string name="change_settings">Змінити налаштування</string>
+
 </resources>

@@ -4,14 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F6E4E2"
     tools:context=".login.LoginActivity">
 
     <EditText
         android:id="@+id/loginField"
-        android:layout_width="250dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="176dp"
+        android:background="#FFFFFF"
         android:hint="@string/login_login_field"
+        android:inputType="text"
+        android:paddingVertical="10dp"
+        android:paddingLeft="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,27 +24,33 @@
 
     <EditText
         android:id="@+id/passwordField"
-        android:layout_width="250dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
         android:hint="@string/login_password_field"
+        android:inputType="textPassword"
+        android:ems="20"
+        android:paddingVertical="10dp"
+        android:paddingLeft="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginField"
-        android:inputType="textPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/loginField" />
 
     <Button
         android:id="@+id/submitButton"
-        android:layout_width="250dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:background="@color/primary"
+        android:onClick="onClickSubbmit"
         android:text="@string/submitButton"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordField"
-        android:onClick="onClickSubbmit"/>
+        app:layout_constraintTop_toBottomOf="@+id/passwordField" />
 
     <Button
         android:id="@+id/registrationButton"
@@ -48,9 +59,11 @@
         android:layout_marginTop="16dp"
         android:background="@android:color/transparent"
         android:text="@string/registration"
+        android:textColor="@color/primary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/submitButton" />
+        app:layout_constraintTop_toBottomOf="@+id/submitButton"
+        android:onClick="goToRegister"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

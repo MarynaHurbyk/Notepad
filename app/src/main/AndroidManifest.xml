@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".record.RecordActivity"></activity>
+        <activity android:name=".user.RegistrationActivity"
+            ></activity>
+        <activity android:name=".record.RecordActivity" />
+        <activity
+            android:name=".record.CreatingRecordActivity"
+           />
         <activity android:name=".login.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
