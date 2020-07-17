@@ -5,9 +5,7 @@ import java.util.HashMap;
 
 public class UserDAO {
 
-    private HashMap<String, User> users = new HashMap<>();
-    private String login;
-    private String password;
+    private static HashMap<String, User> users = new HashMap<>();
 
     {
         try {

@@ -1,10 +1,5 @@
 package com.mh.notepad.user;
 
-import android.content.Intent;
-import android.os.Build;
-
-import androidx.annotation.RequiresApi;
-
 import java.time.LocalDate;
 
 public class User {
